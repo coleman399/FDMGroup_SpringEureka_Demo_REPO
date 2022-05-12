@@ -3,7 +3,7 @@ package com.fdmgroup.messagesUI.client;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
-@Service
+// @Service
 public class MessageClientWebClient implements MessageClient {
 
 	private static final String MSG_URI_EXT = "/api/v1/message";
